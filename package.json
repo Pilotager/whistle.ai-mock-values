@@ -1,0 +1,29 @@
+{
+  "name": "whistle.ai-mock-values",
+  "version": "0.2.1",
+  "private": true,
+  "description": "从 Whistle Values 分组创建 AI Mock",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "link:desktop": "node scripts/link-desktop.js"
+  },
+  "whistleConfig": {
+    "inheritAuth": true,
+    "hideShortProtocol": true,
+    "hideLongProtocol": true,
+    "valuesMenus": [
+      {
+        "name": "AI 创建 Mock",
+        "action": "public/create.html",
+        "required": true
+      }
+    ]
+  },
+  "dependencies": {
+    "yaml": "^2.8.1"
+  }
+}

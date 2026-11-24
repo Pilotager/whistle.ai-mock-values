@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Mock · 模型设置</title><link rel="stylesheet" href="./public/style.css">
+<main><h1>模型设置</h1><p>配置兼容 Chat Completions 的模型后，在 Values 分组上右键选择「AI 创建 Mock」。</p>
+<form><label for="base">模型服务地址</label><input id="base" type="url" placeholder="https://api.openai.com/v1" required>
+<label for="model">模型名称</label><input id="model" placeholder="填写服务商提供的模型 ID" required>
+<label for="key">API Key</label><input id="key" type="password" autocomplete="new-password" placeholder="本机免鉴权服务可留空">
+<button type="submit">保存设置</button><output aria-live="polite"></output></form>
+<p>已关联的接口可在 Rules 中与 Values 分组同名的文件里查看。</p></main><script src="./public/settings.js"></script></html>

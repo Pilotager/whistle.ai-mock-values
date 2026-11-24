@@ -1,0 +1,1 @@
+@whistle.ai-mock-values/api/rules
